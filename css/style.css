@@ -14,7 +14,7 @@ header{
 header ul li{
     background-color: #000;
     width:100%;
-    padding: 0px;
+    padding:3em 0px 3em 0px;
 }
 
 body{
@@ -25,11 +25,7 @@ body{
 
 .wrapper{
     max-width:1200px;
-    margin: 0 auto;
-    padding: 1.5em 0px 1.5em 0px;
-    background-color: #000;
-    color: #dec9e9;
-    
+    margin: 0 auto;  
 }
 
 h1, h2, h4 {
@@ -43,27 +39,40 @@ h1 {
     text-shadow:5px 5px #000;
 }
 
-.scoopalicious{
+#scoopalicious{
     background-color: #7150b4;
     width:100%;
     padding:3em 0px 3em 0px;
 }
 
-.our-team{
+#fan-favourites{
+    background-color: #000;
+    color: #dec9e9;
+    padding: 1.5em 0px 1.5em 0px;
+}
+
+
+#our-team{
     background-color: #7150b4;
     width:100%;
     padding:3em 0px 3em 0px;
     display:flex;
 }
 
-.our-team div{
+#our-team div{
     width:50%;
     padding: .5em;
     flex-direction: column;
 }
 
-.our-team img{
+#our-team img{
     filter: grayscale();
     width: 100px;
     border-radius: 50%;
+}
+
+footer{
+    background-color: #000;
+    width:100%;
+    padding:3em 0px 3em 0px;
 }
