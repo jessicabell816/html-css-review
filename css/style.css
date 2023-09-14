@@ -2,7 +2,53 @@
     box-sizing: border-box;
 }
 
-header{
+body{
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+     /* color: #fff; */
+     margin: 0;
+}
+
+
+.wrapper{
+    max-width:1200px;
+    margin: 0 auto;  
+}
+
+#company-name{
+    color:#dec9e9;
+    font-size:1.5rem;
+}
+
+#header{
+    background-color: #000;
+}
+
+nav ul li a:link,
+nav ul li a:visited{
+    color:#dec9e9;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:focus{
+    color:#fff;
+}
+
+#hero-banner{
+    height: 60vh;
+    background-color: #7251b5;
+    background-image: url("../images/ice-cream-cones.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+
+/* header{
     width:100%;
     padding:3em 0px 3em 0px;
     background-image: url("../images/ice-cream-cones.jpg");
@@ -43,7 +89,7 @@ h1 {
     background-color: #7150b4;
     width:100%;
     padding:3em 0px 3em 0px;
-}xs
+}
 
 #fan-favourites{
     background-color: #000;
@@ -75,4 +121,4 @@ footer{
     background-color: #000;
     width:100%;
     padding:3em 0px 3em 0px;
-}
+} */
