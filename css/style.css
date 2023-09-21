@@ -5,10 +5,9 @@
 body{
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
-     /* color: #fff; */
+     color: #fff;
      margin: 0;
 }
-
 
 .wrapper{
     max-width:1200px;
@@ -24,6 +23,26 @@ body{
     background-color: #000;
 }
 
+#header > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+padding-left: 1.25em;
+}
+
 nav ul li a:link,
 nav ul li a:visited{
     color:#dec9e9;
@@ -31,22 +50,102 @@ nav ul li a:visited{
 }
 
 nav ul li a:hover,
-nav ul li a:focus{
+nav ul li a:focus {
     color:#fff;
 }
 
 #hero-banner{
     height: 60vh;
+
     background-color: #7251b5;
     background-image: url("../images/ice-cream-cones.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+
+    display: flex;
+    align-items: center;
+}
+
+#scoopalicious, 
+#fan-favourites, 
+#our-team{
+    padding:4em 0;
+}
+
+#scoopalicious{
+    background-color: #7251b5;
+}
+
+#scoopalicious p{
+    max-width: 50%;
+}
+
+#fan-favourites{
+    background-color: #000;
+    color:#dec9e9; 
+}
+
+#fan-favourites ol{
+    list-style-type: none; 
+    padding-left: 0;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fan-favourites ol li{
+    max-width: 50%;
+    padding-right: 15%;
+}
+
+#our-team{
+    background-color: #7251b5;
+}
+
+#our-team h2,
+.team-intro{
+    max-width: 40%;
+    margin: 0 auto; 
+    text-align: center;
 }
 
 
+.team-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2.5em;
+    gap: 1em;
+}
 
+.team-grid article{
+    background-color: #6647a6;
+    border-radius: 20px;
+    padding: 2em 0;
 
+    text-align:center;
+}
+
+#our-team article img{
+    filter: grayscale();
+    width: 80px;
+    border-radius: 50%;
+}
+
+.team-grid h3{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.team-grid h4{
+    margin-top: 0;
+}
+
+footer{
+    background-color: #000;
+    text-align: center;
+    padding: 1em 0;
+} 
 
 /* header{
     width:100%;
